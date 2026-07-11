@@ -1,0 +1,3 @@
+/home/gigu/CppProjects/Alarm/cmake/CMakeFiles/Alarm.dir
+/home/gigu/CppProjects/Alarm/cmake/CMakeFiles/edit_cache.dir
+/home/gigu/CppProjects/Alarm/cmake/CMakeFiles/rebuild_cache.dir

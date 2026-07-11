@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Alarm.dir/home/gigu/CppProjects/Alarm/src/main.cc.o -o bin/Alarm 
