@@ -13,4 +13,10 @@ class Buttons
 
 };
 
+class Input
+{
+    public:
+        void InitInput(Rectangle Rec,char* OverLayText,char* buffer);
+};
+
 #endif 

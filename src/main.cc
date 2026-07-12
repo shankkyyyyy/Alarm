@@ -20,17 +20,19 @@ void print()
 
 int main()
 {
-    Rectangle rec = {100,100,100,100};
-    Buttons Btn1;  
+    Rectangle rec = {400,400,100,100};
+    Rectangle Input1 = {100,300,120,40}; 
+    Buttons AlarmBtn; 
+    Input A1;  
     DashBoard a; 
     InitWindow(600,500,"Alarm"); 
     while(!WindowShouldClose()){
         BeginDrawing(); 
          BeginDrawing();
-            ClearBackground(RAYWHITE);
-            DrawText("Use ARROW KEYS to move", 10, 10, 20, DARKGRAY);
+         AlarmBtn.InitButtons(rec,"Set Timer",print);    
+         ClearBackground(BEIGE);
             a.DrawDashBoard(); 
-            Btn1.InitButtons(rec,"nihal",print);
+            A1.InitInput(100,100,Input1,"put the timer");      
         EndDrawing();
     }
     return 0; 

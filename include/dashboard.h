@@ -3,13 +3,15 @@
 
     #include <raylib.h>
     #include <iostream>
-
+    #include <chrono>
+    #include <ctime>
+    
     class DashBoard
     {
         public:
             DashBoard() = default;
             void DrawDashBoard(); 
-                
+
     };
 
 
